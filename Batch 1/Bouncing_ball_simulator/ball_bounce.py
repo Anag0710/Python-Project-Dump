@@ -82,7 +82,7 @@ class BouncingBall:
         pygame.draw.circle(surface, highlight_color, 
                          (int(self.x - self.radius//3), int(self.y - self.radius//3)), 
                          self.radius//3)
-def create_initial_balls(count=5):
+def create__balls(count=5):
     """Create a list of bouncing balls to start the simulation"""
     return [BouncingBall() for _ in range(count)]
 
@@ -102,7 +102,7 @@ def draw_instructions(surface):
 def main():
     """Main game loop with user interaction"""
     # Create initial balls
-    ball_list = create_initial_balls(5)
+    ball_list = create_initial_balls(10)
     
     # Game loop
     running = True

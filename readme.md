@@ -18,6 +18,9 @@ This repository contains a collection of small Python projects organized in batc
   - Realistic physics with energy loss on bounces
   - Smooth 60 FPS animation
 
+- **Create_calculator_app/calculator.py** 🧮  
+  A modern calculator app built with Tkinter. Features a dark-themed UI, large buttons, and support for basic arithmetic operations, exponentiation, and decimal input. Includes a Quit button and error handling for division by zero.
+
 ## 🚀 How to Run
 
 ### Prerequisites
